@@ -2,6 +2,15 @@
 
 Node.js script for shifting the light schedule in an AquaIllumination Hydra26 Aquarium Light .aip file by a specified number of minutes
 
+For example, the David Saxby signature series aip file downloadable from aquaillumination.com is great, but starts and ends too late for my tastes.  I wanted to shift the entire schedule by -3 hours, so I wrote this script.
+
+### Before
+<img width="1162" alt="Screen Shot 2019-05-21 at 11 40 59 PM" src="https://user-images.githubusercontent.com/1833820/58145937-09ffc480-7c22-11e9-9df1-022aed412687.png">
+
+### After
+<img width="1164" alt="Screen Shot 2019-05-21 at 11 41 19 PM" src="https://user-images.githubusercontent.com/1833820/58145938-09ffc480-7c22-11e9-981c-f043c10802e9.png">
+
+
 ## How to Use
 
 Clone this repository
@@ -12,7 +21,7 @@ Run the script `node time-offset.js {minutes to offset} {path-to-original-aip-fi
 
 ## Sample Program
 
-This repo contains a sample `.aip` file in `data/original.aip` (This file is the ["signature series" David Saxby light settings from AI's website](http://www.aquaillumination.com/signature/)).  To shift all of the times in this file by -180 minutes, run `node time-offset.js -180 data/original.aip data/output.aip`.
+This repo contains a sample `.aip` file in `data/original.aip` (This file is the ["signature series" David Saxby light settings from AI's website](http://www.aquaillumination.com/signature/) mentioned above).  To shift all of the times in this file by -180 minutes, run `node time-offset.js -180 data/original.aip data/output.aip`.
 
 This profile was the original inspiration for writing this script. The light sequence doesn't start until 10am and ends at 11pm.  I liked the settings, but wanted it to start 3 hours earlier, running from 7am to 8pm.
 
