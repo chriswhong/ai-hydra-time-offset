@@ -1,0 +1,15 @@
+{
+  "name": "ai-timing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adjust-time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js2xmlparser": "^4.0.0",
+    "xml2json": "^0.11.2"
+  }
+}
