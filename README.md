@@ -1,6 +1,6 @@
 # ai-hydra-time-offset
 
-Node.js script for shifting the light schedule for an AquaIllumination Hydra26 Aquarium Light by a specified number of minutes
+Node.js script for shifting the light schedule in an AquaIllumination Hydra26 Aquarium Light .aip file by a specified number of minutes
 
 ## How to Use
 
